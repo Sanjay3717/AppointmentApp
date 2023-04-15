@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.list-content-container {
+  list-style-type: none;
+  border: 1px solid;
+  border-color: #b5b7c4;
+  border-radius: 10px;
+  max-width: 300px;
+  min-height: 80px;
+}
+.card-top-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.star-image {
+  height: 20px;
+  width: 20px;
+}
+.date-style {
+  color: #b5b7c4;
+  margin-top: -20px;
+  margin-left: 80px;
+}
+.star-button {
+  background: transparent;
+  border-width: 0px;
+}

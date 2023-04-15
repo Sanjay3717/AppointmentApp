@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.app-container {
+  min-height: 400px;
+  min-width: 900px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.top-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+.appointment-image {
+  height: 200px;
+  width: 200px;
+}
+.main-heading {
+  color: #171f46;
+}
+.title-text {
+  color: #b5b7c4;
+}
+.title-input {
+  width: 300px;
+  background: transparent;
+  border-width: 1px;
+  color: #b5b7c4;
+  padding: 5px;
+  margin: 10px;
+  border-color: #b5b7c4;
+}
+.add-btn-style {
+  margin-top: 10px;
+  border-width: 0px;
+  border-radius: 10px;
+  background-color: #8b5cf6;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ffffff;
+}
+.line-style {
+  margin: 50px;
+  color: #9897f0;
+  border-width: 1px;
+}
+.middle-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.remove-button {
+  background: transparent;
+  border-width: 1px;
+  border-color: #9897f0;
+  height: 30px;
+  border-radius: 10px;
+  padding: 5px;
+}
